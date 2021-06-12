@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import LoginButton from "./components/LoginButton";
 import { useAuth0 } from "@auth0/auth0-react";
-import "./App.css";
 import Profile from "./components/Profile";
+import "./App.css";
 
 function App() {
   const { isAuthenticated } = useAuth0();
