@@ -10,7 +10,7 @@ const Profile = () => {
   useEffect(() => {
     const getUserMetadata = async () => {
       const domain = "ra-node-api.us.auth0.com";
-      const apiUrl = process.env.API_URL;
+      const apiUrl = process.env.REACT_APP_API_URL;
 
       try {
         const accessTokenUserApi = await getAccessTokenSilently({
